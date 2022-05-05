@@ -68,8 +68,9 @@ jobs:
           pnpm release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN_PKG: ${{ secrets.NPM_TOKEN_PKG }}
-          NPM_TOKEN_ORG: ${{ secrets.NPM_TOKEN_ORG }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # NPM_TOKEN_PKG: ${{ secrets.NPM_TOKEN_PKG }}
+          # NPM_TOKEN_ORG: ${{ secrets.NPM_TOKEN_ORG }}
   release-pr:
     name: Publish PR
     runs-on: ubuntu-latest

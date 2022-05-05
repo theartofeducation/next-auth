@@ -21,6 +21,7 @@
     "@commitlint/parse": "16.0.0",
     "@types/node": "^17.0.25",
     "@types/semver": "7.3.9",
+    "@types/uuid": "^8.3.3",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
@@ -107,5 +108,8 @@
       "type": "opencollective",
       "url": "https://opencollective.com/nextauth"
     }
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }

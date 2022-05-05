@@ -28,11 +28,11 @@ export async function publish(options: {
     let npmPublish = `pnpm publish --access public --registry=https://registry.npmjs.org`
     // We use different tokens for `next-auth` and `@next-auth/*` packages
 
-    if (pkg.name === "next-auth") {
-      process.env.NPM_TOKEN = process.env.NPM_TOKEN_PKG
-    } else {
-      process.env.NPM_TOKEN = process.env.NPM_TOKEN_ORG
-    }
+    // if (pkg.name === "next-auth") {
+    //   process.env.NPM_TOKEN = process.env.NPM_TOKEN_PKG
+    // } else {
+    //   process.env.NPM_TOKEN = process.env.NPM_TOKEN_ORG
+    // }
 
     if (dryRun) {
       console.log(`Dry run, skip npm publish for package ${pkg.name}...`)
