@@ -1,14 +1,16 @@
 {
   "name": "next-auth",
-  "version": "4.3.4",
+  "version": "4.4.0",
   "description": "Authentication for Next.js",
   "homepage": "https://next-auth.js.org",
-  "repository": "https://github.com/nextauthjs/next-auth.git",
+  "repository": "https://github.com/theartofeducation.edu/next-auth.git",
   "author": "Iain Collins <me@iaincollins.com>",
   "contributors": [
     "Balázs Orbán <info@balazsorban.com>",
     "Nico Domino <yo@ndo.dev>",
-    "Lluis Agusti <hi@llu.lu>"
+    "Lluis Agusti <hi@llu.lu>",
+    "Bob Yexley <bobyexley@theartofeducation.edu>",
+    "JP Jorissen <jp.jorissen@corrdyn.com>"
   ],
   "main": "index.js",
   "module": "index.js",
